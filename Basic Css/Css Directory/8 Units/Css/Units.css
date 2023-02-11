@@ -1,0 +1,31 @@
+/* pixels */
+.A{
+    height: 400px;
+    width:80px;
+
+    background-color: red;
+}
+/* cm */
+.B{
+    height: 4cm;
+    width: 8cm;
+    margin: 1cm 0cm;
+
+    background-color: red;
+}
+/* em */
+.C{
+    height: 4em;
+    width: 3em;
+    margin:1em 0em;
+
+    background-color: red;
+}
+/* viewport */
+.D{
+    height:4vh;
+    width:3vw;
+    margin: 1vh 0vw;
+
+    background-color: red;
+}

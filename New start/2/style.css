@@ -1,0 +1,208 @@
+/* 
+lime= #ADD100        
+grey= #6E6E6E
+aliceblue= rgb(240, 248, 255)
+
+*/
+
+*{
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #4b4848;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-image: linear-gradient(to right,#5c5656,#6e6e6e79,#6e6e6e02);
+    font-size: 1.2rem;
+}
+
+.Navbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.Navbar__logo{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: auto 20px;
+}
+
+#Navbar__logo{
+    color: rgb(240, 248, 255);
+    transition: all 0.5s ease-in-out;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+}
+
+.Navbar__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.Navbar__item{
+    display: flex;
+    margin: auto;
+    margin: 20px;
+    color: aliceblue;
+}
+
+
+
+.Navbar__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.N{
+    color: aliceblue;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+.N:hover{
+    color: #ADD100;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #ADD100 0%, #7B920A  51%, #ADD100  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 10px aliceblue;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+#Navbar__logo:hover{
+    color: #ADD100  ;
+}
+
+p{
+    color: aliceblue;
+}
+
+/* footer */
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    background-color: #6e6e6e;
+    color: aliceblue;
+}
+
+.Footer__list__container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.Footer__list__item{
+    margin: 10px 0px;
+}
+
+.Footer__list{
+    margin: 20px 20px;
+}
+
+.Item{
+    color: aliceblue;
+    transition: all 0.3s ease-in-out;
+}
+
+#Footer__list__item{
+    transition: all 0.5s ease-in-out;
+}
+
+#Footer__list__item:hover{
+    transform: scale(1.2);
+    color: #ADD100;
+}
+
+.Item:hover{
+    color: #ADD100  ;
+    transform: scale(2);
+}
+
+.Footer__item__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Footer__logo{
+    color: aliceblue;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Footer__logo:hover{
+    color: #ADD100;
+}
+
+.Footer__copyright{
+    margin: auto 90px;
+}
+
+.Footer__handles__container{
+    display: flex;
+}
+
+.Handle__container{
+    display: flex;
+    margin: 2px ;
+    color: lightgrey;
+    margin: 15px;
+}
+
+.Handle{
+    color: aliceblue  ;
+    transform: scale(2);
+    transition: all 0.5s ease-in-out;
+}
+
+.Handle:hover{
+    color: #ADD100;
+    transform: scale(2.3);
+}
+

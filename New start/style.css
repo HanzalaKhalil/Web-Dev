@@ -1,0 +1,117 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(32, 25, 25);
+}
+
+.Navbar{
+    display: flex;
+    height: 80px;
+    width: unset;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 100;
+    background-image: linear-gradient(to right,grey 0.5%,black 100%);
+}
+
+
+.Navbar__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
+}
+
+.Navbar__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.Navbar__item{
+    display: flex;
+    margin: 20px;
+}
+
+.Navbar__button{
+    display: flex;
+    background-image: linear-gradient(to right,red,orange);
+    padding: 10PX;
+    border-radius: 4px;
+
+}
+
+#Navbar__button{
+    display: flex;
+    
+    color: aliceblue;
+}
+
+.Navbar__logo{
+    background-image: linear-gradient(to right,red,orange);
+    background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+
+#Navbar__logo{
+    color: transparent;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+.N{
+    color: aliceblue;
+}
+
+.N:hover{
+    color: transparent;
+    background-image: linear-gradient(to right,red,orange);
+    background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    transition: all 0.5s ease-in-out;
+}
+
+.Navbar__button:hover{
+    transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(to right,orange,red);
+}
+
+#Navbar__button:hover{
+    transition: all 0.5s ease-in-out;
+    color: rgb(22, 21, 21);
+}
+
+#Navbar__logo:hover{
+    color: transparent;
+    transition: all 0.5s ease-in-out;
+    background-image: linear-gradient(to right,orange,red);
+    -webkit-background-clip: text;
+
+}
+
+.Navbar__logo:hover{
+    transition: all 0.5s ease-in-out;
+
+}

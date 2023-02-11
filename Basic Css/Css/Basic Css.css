@@ -1,0 +1,31 @@
+/* # */
+h2 {
+    color: red;
+}
+.subtitle:hover {
+    color: blue;
+}
+#subtitle-1 {
+    color: green;
+}
+ li:first-child{
+    color: red; 
+}
+h2 + p{
+    color: blue;
+}
+h2 ~ p{
+    color: green;
+}
+ul > li{
+    color: violet;
+}
+img[src=vid]{
+    color: indigo;
+}
+
+
+
+
+
+

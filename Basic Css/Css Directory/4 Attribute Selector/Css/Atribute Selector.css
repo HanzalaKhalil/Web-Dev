@@ -1,0 +1,25 @@
+/* One element */
+h1[class=h]{
+    color: red;
+}
+/* multiple elements */
+/* in the start */
+img[src^="../img"]{
+    margin: 5px 10px;
+}
+/* in the end */
+img[src$=".jpg"]{
+    border: 10px solid black;
+}
+/* anywhere in between */
+img[src*="/img-"]{
+    border: 10px solid black;
+}
+/* multiple classes */
+.h{
+    color: green;
+}
+h3[class~=g]{
+    color: blue;
+}
+

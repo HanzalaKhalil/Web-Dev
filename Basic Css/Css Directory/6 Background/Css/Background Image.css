@@ -1,0 +1,23 @@
+/* Online Image */
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png);
+}
+/* Downloaded Image */
+body{
+    background-image: url(../img/img-1.jpg);
+}
+/* Background Repeat */
+.div{
+    height: 400px;
+    width: 70%;
+
+    background: url(../img/img-2.jpg);
+    background-repeat: no-repeat;
+}
+.dive{
+    height: 400px;
+    width: 70%;
+
+    background: url(../img/img-2.jpg);
+    background-size: cover;
+}

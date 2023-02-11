@@ -1,0 +1,24 @@
+/* Hover */
+h1:hover{
+    color:red
+}
+/* Child */
+li:first-child{
+    color: green;
+}
+li:last-child{
+    color: blue;
+}
+li:nth-child(2){
+    color: rgb(6, 204, 204);
+}
+li:only-child{
+    color: brown;
+}
+/* Anchor */
+a:link{
+    color: pink;
+}
+a:visited{
+    color:orange;
+}

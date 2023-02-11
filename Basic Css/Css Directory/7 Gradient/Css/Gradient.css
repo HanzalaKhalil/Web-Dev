@@ -1,0 +1,21 @@
+/* Opacity */
+.A{
+    height: 400px;
+    width: 70%;
+
+    background-color: rgba(252, 7, 7, 0.3);
+}
+/* linear Gradient */
+.B{
+    height: 400px;
+    width: 70%;
+
+    background:linear-gradient(to bottom right,red,green,blue,pink );
+}
+/* radial gradient */
+.C{
+    height:400px;
+    width: 70%;
+
+    background: radial-gradient(circle,red 20%,blue 50%,green 90%);
+}

@@ -1,0 +1,16 @@
+/* adjacent sibling  */
+p + section{
+    color:red;
+}
+/* General sibling */
+h1 ~ p{
+    color: green;
+}
+/* child  */
+ul > li{
+    color: blue;
+}
+/* descendent */
+ul li{
+    color: yellow;
+}

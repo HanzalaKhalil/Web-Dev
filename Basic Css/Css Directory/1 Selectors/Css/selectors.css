@@ -1,0 +1,15 @@
+/* element selector */
+p{
+    color: green;
+    font-size:
+    30px;
+}
+/* class selector */
+.head{
+    color: red;
+}
+/* id selector */
+#head-2{
+    color:blue;
+}
+/* inline selector(visit html h3 tag) */

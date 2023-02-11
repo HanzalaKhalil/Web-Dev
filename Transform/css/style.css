@@ -1,0 +1,21 @@
+
+#Bold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.A{
+    background-color: rgb(59, 59, 221);
+    padding: 50px;
+    margin-top: 100px;
+    color: aliceblue;
+    font-size: 2rem;
+    transform: translate(100%);
+}
+
+.A::after{
+    content: 'l';
+    background: red;
+}

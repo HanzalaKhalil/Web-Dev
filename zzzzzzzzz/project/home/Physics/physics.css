@@ -1,0 +1,170 @@
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(yellow.jpeg);
+    background-size: cover;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-image: linear-gradient(to right,rgb(255, 208, 0) 0%,rgba(255, 238, 0, 0.322));
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+}
+
+#navbar__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+
+    background: rgb(22, 2, 39);
+    background-image: linear-gradient(to bottom right,rgb(255, 0, 0),rgb(236, 67, 0));
+    background-size: 100%;
+
+    background-clip: text;
+
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent; 
+
+    -moz-color: transparent;
+    -webkit-color: transparent;
+}
+
+.fa-gem{
+    margin-right: 0.5rem;
+}
+
+.navbar__menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar__item{
+    font-size: 2rem;
+    display: flex;
+    margin: 0 20px;
+    color: aliceblue;
+}
+
+.navbar__links{
+    color: aliceblue;
+}
+
+.home:hover{ 
+    color: rgb(113, 6, 214);
+    transition: all 0.5s ease-in-out;
+}
+
+.biology:hover{
+    color: deeppink;
+    transition: all 0.5s ease-in-out;
+}
+
+.chemistry:hover{
+    color:darkorange;
+    transition:all 0.5s ease-in-out;
+}
+
+.computer:hover{
+    color: blue;
+    transition: all 0.5s ease-in-out; 
+}
+
+.mathematics:hover{
+    color: gold;
+    transition: all 0.5s ease-in-out;
+}
+
+.physics:hover{
+    color: rgba(185, 24, 185, 0.733);
+    transition: all 0.5s ease-in-out;
+}
+
+/* text */
+
+h1{
+    color: purple;
+    font-size: 3rem;
+    margin: 16px 6px;
+}
+
+h2{
+    color: purple;
+    font-size: 2rem;
+    margin: 16px 6px;
+}
+
+p{
+    color: purple;
+    margin: 0 8px;
+}
+
+.flex__container{
+    display: flex;
+}
+
+.footer{
+    color: black;
+}
+@media screen and (max-width:1340px) {
+
+    .navbar__container{
+        padding: 0 30px;
+    }
+
+    #navbar__logo{
+        font-size: 2.5vw;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .navbar__item{
+        font-size: 2vw;
+    }
+}
+
+
+
+@media screen and (max-width:890px) {
+    .navbar{
+        padding: 0 15px;
+    }
+    #navbar__logo{
+        font-size: 2vw;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .navbar__item{
+        font-size: 1.65vw;
+    }
+
+}
